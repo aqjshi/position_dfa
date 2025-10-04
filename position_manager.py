@@ -49,7 +49,7 @@ states_dict = {
 
 # row = state, col  = function, (row, col) = new state
 
-transition_table = [
+transition_table = {
 
     0:  [1,0,0, 0,0,0, 0,0,0, 0,0],
 
@@ -65,7 +65,7 @@ transition_table = [
 
     6:  [1,6,6, 6,6,6, 6,6,6, 6,6],  
 
-]
+}
 
 
 
